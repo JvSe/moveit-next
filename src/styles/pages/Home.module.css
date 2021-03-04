@@ -1,0 +1,18 @@
+.container {
+    height: 100vh; /* 100vh é diferente de 100%,o 100% pega tenta  pegar a totalidade do conteudo disponivel, e o 100vh pega a totalidade da tela disponivel */
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1f;
+    gap: 6.25rem;
+    align-items: center;
+}
